@@ -1,6 +1,6 @@
 # FootballTeamProject
 
-Please kindly type 
+Please kindly type on your shell
 
 ```docker
 docker-compose build && docker-compose up
