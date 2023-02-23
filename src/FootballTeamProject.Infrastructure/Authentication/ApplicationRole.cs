@@ -7,10 +7,11 @@ using System.Threading.Tasks;
 
 namespace FootballTeamProject.Infrastructure.Authentication
 {
-    public class ApplicationUser:IdentityUser
+    public class ApplicationRole:IdentityRole
     {
-        public string FirstName { get; set; }
-        public string LastName { get; set; }
-        public string ClubName { get; set; }
+        public ApplicationRole(string name) : base(name)
+        {
+        }
+        public string? Description { get; set; }
     }
 }
